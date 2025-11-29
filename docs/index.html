@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procesador Inteligente - IA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/style.css">
+
+
+</head>
+
+<body>
+
+    <!-- barra lateral - navegacion y filtros -->
+    <aside class="sidebar glass-nav">
+        <h2 class="titulo-app">🤖 IA Vortex</h2>
+
+        <button class="btn-side">Dashboard</button>
+        <button class="btn-side">Tickets</button>
+        <button class="btn-side">Modelos</button>
+        <button class="btn-side">Configuración</button>
+    </aside>
+
+    <!-- CONTENIDO -->
+    <main class="content">
+
+        <h1 class="titulo-seccion">Procesador Inteligente de Tickets</h1>
+
+        <!-- BARRA DE ACCIONES -->
+        <div class="acciones">
+            <button id="procesar" class="btn">Procesar ticket</button>
+            <button id="limpiar" class="btn sec">Limpiar</button>
+            <button id="exportar" class="btn sec">Exportar CSV</button>
+            <button id="limpiarLS" class="btn danger">Limpiar localStorage</button>
+        </div>
+
+        <textarea id="inputTexto" class="input-texto" placeholder="Pega aquí el ticket del cliente..."></textarea>
+
+        <!-- GRID PRINCIPAL -->
+        <section class="grid">
+
+            <!-- RESULTADOS -->
+            <div class="card ai-glow">
+                <h3>Resultados</h3>
+                <p><strong>¿Es phishing?:</strong> <span id="r-phishing">—</span></p>
+                <p><strong>Tipo Mantenimiento:</strong> <span id="r-tipo">—</span></p>
+                <p><strong>Anonimizado:</strong> <span id="r-anon">—</span></p>
+                <p><strong>Sentimiento:</strong> <span id="r-sentimiento">—</span></p>
+            </div>
+
+            <!-- GRÁFICO SENTIMIENTO -->
+            <div class="card ai-glow">
+                <h3>Sentimiento (por ticket)</h3>
+                <canvas id="chartSentimiento"></canvas>
+            </div>
+
+            <!-- GRÁFICO PHISHING -->
+            <div class="card ai-glow">
+                <h3>Phishing vs Seguro</h3>
+                <canvas id="chartPhishing"></canvas>
+            </div>
+
+            <!-- TABLA TICKETS -->
+            <div class="card ai-glow tabla">
+                <h3>Tickets guardados</h3>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Cliente</th>
+                            <th>Tipo</th>
+                            <th>Mantenimiento</th>
+                            <th>Phishing</th>
+                            <th>Churn%</th>
+                            <th>Texto</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaTickets"></tbody>
+                </table>
+            </div>
+
+        </section>
+
+        <footer>
+            © 2025 - Procesador Inteligente - Geidy/Ricardo
+        </footer>
+
+    </main>
+    
+    <script src="/JS/storage.js"></script>
+    <script src="/JS/ui.js"></script>
+    <script src="/JS/app.js"></script>
+
+</body>
+</html>
