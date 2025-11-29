@@ -64,16 +64,13 @@ Crear una **IA** que genere **alertas de riesgo proactivas (churn)** y proteja l
 | 5.2 | Documentación Técnica  | Finalizar la documentación del código y los entregables.   |
 
 ---
-
 ## 📌 Notas Finales
 - Este proyecto busca integrar **IA + Ciberseguridad** en un flujo reproducible y claro.  
 - Cada fase está diseñada para ser **modular**, facilitando pruebas y escalabilidad.  
-- La documentación se mantendrá actualizada conforme avance el desarrollo.  
-
 ---
 **Proyecto desarrollado por:**
 
-- **Lorena Fonton**  
+- **Lorena Ponton**  
   📱 Móvil: +057 3174070511  
   🔗 Contacto: [LinkedIn](https://linkedin.com/in/geidyponton-desarrolladora-fron-end)
 
