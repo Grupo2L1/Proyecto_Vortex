@@ -71,14 +71,14 @@ Crear una **IA** que genere **alertas de riesgo proactivas (churn)** y proteja l
 - La documentación se mantendrá actualizada conforme avance el desarrollo.  
 
 ---
+**Proyecto desarrollado por:**
 
-## 👨‍💻 Autor
-**Proyecto desarrollado por: **
-                    Lorena Fonton
-                    **Movil: ** +057 3174070511
-                 **Contacto: ** linkedin.com/in/geidyponton-desarrolladora-fron-end
-                    Ricardo Martínez
-                    **Movil: ** 3157855136
-                   **E-Mail: ** andresm2477@gmail.com
+- **Lorena Fonton**  
+  📱 Móvil: +057 3174070511  
+  🔗 Contacto: [LinkedIn](https://linkedin.com/in/geidyponton-desarrolladora-fron-end)
+
+- **Ricardo Martínez**  
+  📱 Móvil: 3157855136  
+  📧 E-Mail: andresm2477@gmail.com
 
 Gracias por visitar nuestro repositorio.
